@@ -1,15 +1,13 @@
 import streamlit as st
 from openai import OpenAI
 import os
-from dotenv import load_dotenv
 from magic_admin import Magic
 
-load_dotenv()
 
 # Initialize Magic
 try:
     magic = Magic(
-        api_secret_key=os.getenv('MAGIC_API'),
+        api_secret_key= st.secrets["MAGIC_API"],
         retries=5,
         timeout=5,
         backoff_factor=0.01,
@@ -19,7 +17,7 @@ except Exception as e:
     raise
 
 # Initialize OpenAI client
-api_key = os.getenv("OPENAI_API")
+api_key = st.secrets["OPENAI_API"]
 client = OpenAI(api_key=api_key)
 
 # Capture and validate the DID token
