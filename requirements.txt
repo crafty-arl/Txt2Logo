@@ -1,5 +1,5 @@
 streamlit
-openai==4.0.0
+openai
 python-dotenv
 magic-admin
 requests
