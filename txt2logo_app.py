@@ -58,15 +58,15 @@ if did_token:
 
         palettes = {
             "Modern Tech Style": {
-                "image_path": r"\ModernTechStyle.png",
+                "image_path": r".\ModernTechStyle.png",
                 "colors": ["Azure", "Charcoal", "Silver", "Neon Green"]
             },
             "Vintage Nostalgia Style": {
-                "image_path": r"\VintageNostalgiaStyle.png",
+                "image_path": r".\VintageNostalgiaStyle.png",
                 "colors": ["Rust", "Olive", "Cream", "Burgundy"]
             },
             "Nature Inspired Style": {
-                "image_path": r"\NatureInspiredStyle.png",
+                "image_path": r".\NatureInspiredStyle.png",
                 "colors": ["Forest Green", "Sky Blue", "Sand", "Sunflower Yellow"]
             }
         }
