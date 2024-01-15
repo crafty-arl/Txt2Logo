@@ -1,5 +1,5 @@
-streamlit==1.1.0
-openai==0.2.5
-python-dotenv==0.19.1
-magic-admin==1.2.0
-requests==2.26.0
+streamlit
+openai
+python-dotenv
+magic-admin
+requests
