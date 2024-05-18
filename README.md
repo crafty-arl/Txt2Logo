@@ -7,8 +7,8 @@ hey everyone! welcome to the txt 2 logo generator, where you can create custom l
 
 1. clone this repository:
     ```sh
-    git clone https://github.com/yourusername/txt-2-logo-generator.git
-    cd txt-2-logo-generator
+    git clone https://github.com/crafty-arl/Txt2Logo.git
+    cd Txt2Logo
     ```
 
 2. install the required packages:
@@ -58,7 +58,7 @@ if you do not agree with these terms, please refrain from using the platform.
 
 ## contact us ✉️
 
-have questions or need support? reach out to us at [support@craftthefuture.com](mailto:support@craftthefuture.com).
+have questions or need support? reach out to us at (mailto:carl@craftthefuture.xyz).
 
 let's craft the future together! 🌟
 ```
